@@ -1,0 +1,63 @@
+#info{
+    background: #333;
+    color:#fff;
+    text-align: center;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.info-Spidey{
+    margin: 20px;
+}
+
+.info-Spidey img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.info-Villanos{
+    margin: 20px;
+}
+
+.info-Villanos img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+@media (min-width:480px){
+    .info-Spidey{
+        width: 40%;
+    }
+
+}
+
+@media (min-width:1024px){
+    .info-Spidey{
+        width: auto;
+    }
+
+}
+
+
+
+@media (min-width:480px){
+    .info-Villanos{
+        width: 40%;
+    }
+
+}
+
+@media (min-width:1024px){
+    .info-Villanos{
+        width: auto;
+    }
+
+}
